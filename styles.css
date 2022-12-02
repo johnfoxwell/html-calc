@@ -1,0 +1,40 @@
+/* Element selectors */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    width: 75px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Class selectors */
+.wrap {
+    width: 350px;
+    margin: auto;
+    height: auto;
+    background: black;
+    padding: 15px;
+}
+
+/* ID Selectors */
+#del {
+    width: 100%;
+}
